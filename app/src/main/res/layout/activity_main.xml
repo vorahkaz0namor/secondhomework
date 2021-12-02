@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/my_photo_2020"
+        android:id="@+id/my_foto_image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toTopOf="@+id/howdoudo_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_in_label" />
+
+    <TextView
+        android:text="@string/userwishes"
+        app:layout_constraintBottom_toTopOf="@+id/second_activity_button"
+        app:layout_constraintTop_toBottomOf="@+id/howdoudo_text"
+        android:id="@+id/experim_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/howdoudotext"
+        android:id="@+id/howdoudo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/my_foto_image"
+        app:layout_constraintBottom_toTopOf="@+id/experim_text_view"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        style="@style/Theme.Secondhomework.Button"
+        android:text="@string/gotosite"
+        android:id="@+id/second_activity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        style="@style/Theme.Secondhomework.Fab"
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:fabSize="mini"/>
+
+    <CheckBox
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectoutlabel"
+        android:id="@+id/select_out_label"/>
+
+    <CheckBox
+        app:layout_constraintTop_toBottomOf="@id/select_out_label"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectinlabel"
+        android:id="@+id/select_in_label"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

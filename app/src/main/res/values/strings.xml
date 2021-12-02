@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ВСЕЛЕННАЯ РОМАНА</string>
+    <string name="gotosite">ПРИГЛАШАЮ НА МОЙ САЙТ</string>
+    <string name="linktosite" translatable="false">http://komavp.12-t.ru/</string>
+    <string name="gotolinkbutton">ПЕРЕЙТИ ВО ВСЕЛЕННУЮ РОМАНА</string>
+    <string name="userwishes">ПРИГОТОВТЕСЬ К ПУТЕШЕСТВИЮ! %)</string>
+    <string name="selectoutlabel">Выбираю выход</string>
+    <string name="selectinlabel">Выбираю вход</string>
+    <string name="howdoudotext">КАК НАСТРОЕНИЕ?</string>
+</resources>

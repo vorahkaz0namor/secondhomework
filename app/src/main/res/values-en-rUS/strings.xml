@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ROMAN\'S UNIVERSE</string>
+    <string name="gotosite">Welcome to my site</string>
+    <string name="gotolinkbutton">Something hard</string>
+    <string name="userwishes">Get ready to jump!</string>
+    <string name="selectoutlabel">I\'m select out</string>
+    <string name="selectinlabel">I\'m select in</string>
+    <string name="howdoudotext">Whazzap?!!</string>
+</resources>
